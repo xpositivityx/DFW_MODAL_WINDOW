@@ -1,0 +1,51 @@
+.modal-background {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+  background-color: rgba(1,1,1,.8);
+  display:none;
+}
+
+.modal-window{
+	position:fixed;
+	top:15%;
+	left:25%;
+	width:50%;
+	height:70%;
+	background-color:rgb(250,250,250);
+	border-radius:8px;
+	display:none;
+}
+
+.modal-window .header,
+.modal-window .footer,
+.modal-window .body {
+	width:100%;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	display:block;
+}
+
+.modal-window .header{
+	border-bottom:1px solid grey;
+	height:15%;
+}
+
+.modal-window .body {
+	height:75%;
+}
+
+.modal-window .footer {
+	border-top:1px solid grey;
+	height:10%;
+}
+
+.modal-window .close {
+	position:absolute;
+	top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
